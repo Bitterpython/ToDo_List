@@ -1,5 +1,10 @@
 import { useState } from 'react'
 import './App.css'
+import {ChangeBGButton} from "./components/ChangeBGButton"
+import {ChangeBGButton2} from "./components/ChangeBGButton2"
+
+
+
 
 
 function Delete_Button({ onDeleteFunction }) {
@@ -57,8 +62,8 @@ function App() {
 
     </form >
 
-
-
+    <ChangeBGButton />
+    <ChangeBGButton2 />
 
 
     <div class="todo-list" >
